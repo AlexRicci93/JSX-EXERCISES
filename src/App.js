@@ -1,9 +1,9 @@
 
 import './App.css';
 
-function App(nome) {
+function App(props) {
   return (
-    <h1>Hello, {nome}</h1>
+    <h1>Hello, {props.name}</h1>
   );
 }
 
